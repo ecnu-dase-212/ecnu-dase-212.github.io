@@ -1,6 +1,7 @@
 ---
 layout: member
 name: 李新雨
+grade: 研三
 self_introduction: 联邦异质性，医学图像分割
 img: assets/img/lxy.jpg
 importance: 1

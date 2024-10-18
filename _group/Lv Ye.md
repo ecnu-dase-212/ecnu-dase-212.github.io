@@ -1,8 +1,9 @@
 ---
 layout: member
-name: 叶金艳
+name: 吕晔
+grade: 研一
 self_introduction: 隐私计算
-img: assets/img/yjy.jpg
+img: assets/img/lvy.jpg
 importance: 1
 category: Master Students
 page: false

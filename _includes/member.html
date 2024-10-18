@@ -19,6 +19,9 @@
       {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ member.name }}</h2>
+          {%- if member.grade %}
+            <p class="card-text">{{ member.grade }}</p>
+          {%- endif %}
           {%- if member.self_introduction %}
             <p class="card-text">{{ member.self_introduction }}</p>
           {%- endif %}
