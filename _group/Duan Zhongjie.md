@@ -1,6 +1,7 @@
 ---
 layout: member
 name: 段忠杰
+grade: 博士
 self_introduction: 图像与视频生成 
 img: assets/img/dzj.jpg
 importance: 1
