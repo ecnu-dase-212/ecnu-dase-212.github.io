@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: 发表
+title: 发表论文
 description: PUBLICATIONS
 nav: true
 nav_order: 3
