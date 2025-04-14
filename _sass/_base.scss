@@ -20,6 +20,11 @@ table.publication-table > tbody > tr > td {
     padding-right: 20px;
 }
 
+table.publication-table > tbody > tr.publication-table-first-row > td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 table {
   td, th {
     color: var(--global-text-color);
