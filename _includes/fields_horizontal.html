@@ -1,0 +1,52 @@
+<div class="card-item col">
+  {%- if field.redirect -%}
+    <a href="{{ field.redirect }}">
+  {%- else -%}
+    {%- if field.page -%}
+      <a href="{{ field.url | relative_url }}">
+    {%- endif -%}
+  {%- endif -%}
+  <div class="card card-no-shadow hoverable">
+    <div class="row g-0">
+      {%- if field.img -%}
+        <div class="card-img card-img-no-margin col-md-4">
+          <!--
+            responsive_image_block 
+            path: {{ field.img }}
+            alt: "field thumbnail"
+          endresponsive_image_block -->
+          {%- include figure.html
+            path=field.img
+            alt="field thumbnail" -%}
+        </div>
+      <div class="col-md-8">
+        {%- else -%}
+      <div class="col-md-12">
+        {%- endif -%}
+        <div class="card-body">
+          <h3 class="card-title">{{ field.title }}</h3>
+          <p class="card-text">{{ field.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- if field.redirect or field.page -%}
+  </a>
+  {%- endif -%}
+  <div class="row ml-1 mr-1 p-0">
+    {%- if field.github -%}
+      {%- if field.img -%}
+      <div class="col-md-4"></div>
+      <div class="col-md-8">
+      {%- else -%}
+      <div class="col-md-12">
+      {%- endif -%}
+      <div class="github-icon ml-2">
+        <div class="icon" data-toggle="tooltip" title="GitHub Organization">
+          <a href="{{ field.github }}"><i class="fab fa-github gh-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    {%- endif -%}
+  </div>
+</div>

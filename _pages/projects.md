@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 研究项目
+title: 项目
 permalink: /projects/
 description: PROJECTS # A growing collection of cool projects.
 nav: true

@@ -133,6 +133,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  fields:
+    output: true
+    permalink: /fields/:path/
   group:
     defaults:
       layout: member
@@ -303,7 +306,9 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
-enable_medium_zoom:         false   # enables image zoom feature (as on medium.com)
+enable_field_categories:    true   # enables categorization of fields into
+                                   # multiple categories
+enable_medium_zoom:         false  # enables image zoom feature (as on medium.com)
 enable_group_categories:    true   # enables categorization of group members into
                                    # multiple categories
 

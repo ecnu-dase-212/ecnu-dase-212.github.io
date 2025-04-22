@@ -1,0 +1,34 @@
+<!-- _includes/fields.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if field.redirect -%}
+  <a href="{{ field.redirect }}">
+  {%- else -%}
+  {%- if field.page -%}
+  <a href="{{ field.url | relative_url }}">
+  {%- endif -%}
+  {%- endif %}
+    <div class="card hoverable">
+      {%- if field.img %}
+      {%- include figure.html
+        path=field.img
+        alt="field thumbnail" -%}
+      {%- endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ field.title }}</h2>
+        <p class="card-text">{{ field.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {%- if field.github -%}
+          <div class="github-icon">
+            <div class="icon" data-toggle="tooltip" title="Code Organization">
+              <a href="{{ field.github }}"><i class="fab fa-github gh-icon"></i></a>
+            </div>
+          </div>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  {%- if field.redirect or field.page -%}
+  </a>
+  {%- endif -%}
+</div>
