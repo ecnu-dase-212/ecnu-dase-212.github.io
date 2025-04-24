@@ -11,7 +11,7 @@ year: "2015 & before"
     </tr>
     <tr>
       <td>Towards city-scale mobile crowdsourcing: Task recommendations under trajectory uncertainties</td>
-      <td>Twenty-Fourth International Joint Conference on Artificial Intelligence (IJCAI-2015, CCF-A)</td>
+      <td>IJCAI-2015 (CCF-A)</td>
       <td><a href="#">详情</a></td>
     </tr>
     <tr>
@@ -21,22 +21,22 @@ year: "2015 & before"
     </tr>
     <tr>
       <td>Multi-agent task assignment for mobile crowdsourcing under trajectory uncertainties (Extended Abstract)</td>
-      <td>Fourteenth International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS-2015)</td>
+      <td>AAMAS-2015</td>
       <td><a href="#">详情</a></td>
     </tr>
     <tr>
       <td>Multi-agent orienteering problem with time-dependent capacity constraints</td>
-      <td>Web Intelligence and Agent Systems (WIAS-2014)</td>
+      <td>WIAS-2014</td>
       <td><a href="#">详情</a></td>
     </tr>
     <tr>
       <td>TRACCS: A Framework for Trajectory-Aware Coordinated Urban Crowd-Sourcing</td>
-      <td>Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP-2014)</td>
+      <td>HCOMP-2014</td>
       <td><a href="#">详情</a></td>
     </tr>
     <tr>
       <td>The multi-agent orienteering problem (Extended Abstract)</td>
-      <td>10th Metaheuristics International Conference (MIC-2013)</td>
+      <td>MIC-2013</td>
       <td><a href="#">详情</a></td>
     </tr>
   </tbody>
